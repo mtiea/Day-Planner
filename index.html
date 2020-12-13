@@ -129,16 +129,19 @@
     <script>
 // constructing a queryURL variable we will use instead of the literal string inside of the ajax method
 
-var title = dayPlanner
-var queryURL = 
+ var nineam = $("#nineam")
+ var tenam = $("#tenam")
+ var elevenam = $("elevenam")
+ var twelvepm = $("twelvepm")
+ var onepm = $("#onepm")
+ var twopm = $("#twopm")
+ var threepm = $("#threepm")
+ var fourpm = $("fourpm")
+ var fivepm = $("#fivepm")
+ var sixpm = $("#sixpm")
 
-$.ajax({
-      url: queryURL,
-      method: "GET"
-    }).then(function(response) {
-      console.log(response);
-      console.log(response.Runtime);
-    });
+ console.log(fivepm)
+ 
 
 
 
